@@ -1,0 +1,105 @@
+h1{
+	text-align: left;
+	background: #010000;
+    background: linear-gradient(90deg,#010000 0%, rgba(0,111,255,0.45) 80%);
+    background: -webkit-linear-gradient(90deg,#010000 0%, rgba(0,111,255,0.45) 80%);
+    background: -moz-linear-gradient(90deg,#010000 0%, rgba(0,111,255,0.45) 80%);
+	color: white;
+	box-shadow: 2px 11px 11px 1px black;
+}
+
+.title{
+	padding: 80px;
+	background: #010000;
+    background: linear-gradient(90deg,#010000 0%, rgba(0,111,255,0.45) 80%);
+    background: -webkit-linear-gradient(90deg,#010000 0%, rgba(0,111,255,0.45) 80%);
+    background: -moz-linear-gradient(90deg,#010000 0%, rgba(0,111,255,0.45) 80%);
+}
+
+img{
+	float: right;
+	width: 50%;
+	border: 7px solid #275682;
+    background:#676470;
+    color:#fff;
+    line-height:300px;
+    transition:all 0.3s ease;
+}
+
+img:hover{
+	border-radius:50%;
+}
+
+ul{
+	list-style-type: square;
+}
+
+ol{
+	list-style-type: upper-roman;
+}
+
+.profile{
+	background: #010000;
+    background: linear-gradient(90deg,#010000 0%, rgba(0,111,255,0.45) 80%);
+    background: -webkit-linear-gradient(90deg,#010000 0%, rgba(0,111,255,0.45) 80%);
+    background: -moz-linear-gradient(90deg,#010000 0%, rgba(0,111,255,0.45) 80%);
+	padding: 80px;
+}
+
+.info{
+	display: flex;
+	padding: 50px;
+	background-color: white;
+	transition:all 0.3s ease;
+}
+
+.info:hover{
+	background:#53a7ea;
+}
+
+h2{
+	color: white;
+	background: #010000;
+    background: linear-gradient(90deg,#010000 0%, rgba(0,111,255,0.45) 80%);
+    background: -webkit-linear-gradient(90deg,#010000 0%, rgba(0,111,255,0.45) 80%);
+    background: -moz-linear-gradient(90deg,#010000 0%, rgba(0,111,255,0.45) 80%);
+    box-shadow: 2px 11px 11px 1px black
+}
+
+*{
+	font-family: 'Oswald', sans-serif;
+}
+
+.personalData {
+	display: flex;
+	flex-direction: column;
+}
+
+.skills {
+	display: flex;
+	flex-direction: column;
+}
+
+.education {
+	display: flex;
+	flex-direction: column;
+}
+
+.profilePic {
+	display: flex;
+	flex: 1;
+	justify-content: center;
+	align-items: center;
+}
+
+@media only screen and (max-width: 800px) {
+	.info {
+		flex-wrap: wrap;
+	}
+
+	.personalData {
+		width: 100%;
+		flex-direction: row;
+		justify-content: space-evenly;
+	}
+}
